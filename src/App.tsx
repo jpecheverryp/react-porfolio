@@ -1,4 +1,4 @@
-import { Box } from '@chakra-ui/react';
+import { Box, useColorModeValue } from '@chakra-ui/react';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -7,7 +7,7 @@ import Work from './pages/Work';
 
 function App() {
   return (
-    <Box>
+    <Box bg={useColorModeValue('#f5f7f5', '#202029')} pb={16}>
       <Navbar />
       <Routes>
         <Route path='/' element={<Homepage />} />

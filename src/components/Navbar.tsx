@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Box,
-  Button,
   Container,
   Flex,
   Heading,
@@ -43,7 +42,7 @@ const Navbar = () => {
         flexWrap={'wrap'}
       >
         <Flex alignItems={'center'}>
-          <Heading as={'h1'} size='lg'>
+          <Heading as={'h1'} size='md'>
             <Link as={RouterLink} to='/'>
               Juan P Echeverry
             </Link>
