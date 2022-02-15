@@ -41,11 +41,25 @@ const DigitalGarden = () => {
 
         <Link
           as={'a'}
-          href={'https://obscure-crag-71873.herokuapp.com/'}
+          href={'https://github.com/jpecheverryp'}
           target={'_blank'}
           color={useColorModeValue('blue.600', 'orange.200')}
         >
-          obscure-crag-71873.herokuapp.com
+          My Github Link
+        </Link>
+      </Text>
+      <Text>
+        <Text as={'span'} fontWeight={'bold'}>
+          Repository:{' '}
+        </Text>
+
+        <Link
+          as={'a'}
+          href={'https://github.com/jpecheverryp'}
+          target={'_blank'}
+          color={useColorModeValue('blue.600', 'orange.200')}
+        >
+          My Github Link
         </Link>
       </Text>
       <Text>
