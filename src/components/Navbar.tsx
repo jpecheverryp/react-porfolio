@@ -23,6 +23,7 @@ const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const iconBg = useColorModeValue('purple.500', 'yellow.200');
   const iconColor = useColorModeValue('white', 'black');
+  console.log(colorMode);
 
   return (
     <Box

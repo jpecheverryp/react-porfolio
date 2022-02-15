@@ -4,7 +4,6 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   Container,
-  Heading,
   Image,
   Link,
   Text,
@@ -40,7 +39,6 @@ const DigitalGarden = () => {
         </Text>
 
         <Link
-          as={'a'}
           href={'https://github.com/jpecheverryp'}
           target={'_blank'}
           color={useColorModeValue('blue.600', 'orange.200')}
@@ -54,7 +52,6 @@ const DigitalGarden = () => {
         </Text>
 
         <Link
-          as={'a'}
           href={'https://github.com/jpecheverryp'}
           target={'_blank'}
           color={useColorModeValue('blue.600', 'orange.200')}
