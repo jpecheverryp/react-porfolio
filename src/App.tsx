@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import DigitalGarden from './pages/Projects/DigitalGarden';
+import ReactEmployeeDirectory from './pages/Projects/ReactEmployeeDirectory';
 import Work from './pages/Work';
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <Route path='/' element={<Homepage />} />
         <Route path='work' element={<Work />} />
         <Route path='work/digitalgarden' element={<DigitalGarden />} />
+        <Route
+          path='work/employeedirectory'
+          element={<ReactEmployeeDirectory />}
+        />
       </Routes>
       <Footer />
     </Box>

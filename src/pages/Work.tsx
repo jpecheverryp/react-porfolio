@@ -10,6 +10,7 @@ import {
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import digitalGardenThumb from '../images/digitalGardenThumb.png';
+import employeeDirectory from '../images/employeeDirectory.png';
 import React from 'react';
 
 const Work = () => {
@@ -61,20 +62,21 @@ const Work = () => {
             </Text>
           </GridItem>
         </LinkBox>
-        <LinkBox as={RouterLink} to='/work/digitalgarden'>
+        <LinkBox as={RouterLink} to='/work/employeedirectory'>
           <GridItem w={'100%'} p={2}>
             <Image
               loading='lazy'
-              src={digitalGardenThumb}
+              src={employeeDirectory}
               borderRadius={'lg'}
-              alt={'Digital Garden Thumbnail'}
+              alt={'Employee Directory Thumbnail'}
             />
             <Heading as={'h4'} size={'md'} mt={2} textAlign={'center'}>
-              Digital Garden
+              Employee Directory
             </Heading>
             <Text textAlign={'center'}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              quibusdam aspernatur ad velit eum
+              React application that can be used to track different employees
+              and their contact information. They can also be sorted and
+              searched
             </Text>
           </GridItem>
         </LinkBox>
