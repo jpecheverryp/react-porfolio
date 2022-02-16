@@ -24,6 +24,7 @@ const Work = () => {
       <LinkBox as={RouterLink} to='/work/digitalgarden'>
         <Box mt={4}>
           <Image
+            loading='lazy'
             src={digitalGardenThumb}
             borderRadius={'xl'}
             alt={'Digital Garden Thumbnail'}
@@ -46,6 +47,7 @@ const Work = () => {
         <LinkBox as={RouterLink} to='/work/digitalgarden'>
           <GridItem w={'100%'} p={2}>
             <Image
+              loading='lazy'
               src={digitalGardenThumb}
               borderRadius={'lg'}
               alt={'Digital Garden Thumbnail'}
@@ -62,6 +64,7 @@ const Work = () => {
         <LinkBox as={RouterLink} to='/work/digitalgarden'>
           <GridItem w={'100%'} p={2}>
             <Image
+              loading='lazy'
               src={digitalGardenThumb}
               borderRadius={'lg'}
               alt={'Digital Garden Thumbnail'}
