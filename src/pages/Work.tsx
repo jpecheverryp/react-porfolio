@@ -45,7 +45,7 @@ const Work = () => {
         templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
         gap={2}
       >
-        <LinkBox as={RouterLink} to='/work/digitalgarden'>
+        {/* <LinkBox as={RouterLink} to='/work/digitalgarden'>
           <GridItem w={'100%'} p={2}>
             <Image
               loading='lazy'
@@ -61,7 +61,7 @@ const Work = () => {
               quibusdam aspernatur ad velit eum
             </Text>
           </GridItem>
-        </LinkBox>
+        </LinkBox> */}
         <LinkBox as={RouterLink} to='/work/employeedirectory'>
           <GridItem w={'100%'} p={2}>
             <Image
