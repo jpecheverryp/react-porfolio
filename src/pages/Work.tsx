@@ -34,9 +34,9 @@ const Work = () => {
             Digital Garden
           </Heading>
           <Text textAlign={'center'}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quibusdam aspernatur ad velit eum aut id ea asperiores, sed quidem
-            deleniti earum, repellendus nobis.
+            Note taking app where you can write, edit and delete public notes,
+            future features include connecting notes with other notes in a
+            similar way to obsidian
           </Text>
         </Box>
       </LinkBox>

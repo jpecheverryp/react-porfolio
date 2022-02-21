@@ -28,10 +28,9 @@ const DigitalGarden = () => {
         </BreadcrumbItem>
       </Breadcrumb>
       <Text mt={3}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
-        assumenda adipisci? Culpa quas saepe impedit iste soluta mollitia
-        aliquam atque sunt? Enim fuga aliquid quasi, alias adipisci quisquam
-        praesentium doloribus.
+        Note taking app where you can write, edit and delete public notes,
+        future features include connecting notes with other notes in a similar
+        way to obsidian
       </Text>
       <Text mt={6}>
         <Text as={'span'} fontWeight={'bold'}>
@@ -39,11 +38,11 @@ const DigitalGarden = () => {
         </Text>
 
         <Link
-          href={'https://github.com/jpecheverryp'}
+          href={'https://obscure-crag-71873.herokuapp.com/'}
           target={'_blank'}
           color={useColorModeValue('blue.600', 'orange.200')}
         >
-          My Github Link
+          Live Site
         </Link>
       </Text>
       <Text>
@@ -52,11 +51,11 @@ const DigitalGarden = () => {
         </Text>
 
         <Link
-          href={'https://github.com/jpecheverryp'}
+          href={'https://github.com/jpecheverryp/my-digital-garden'}
           target={'_blank'}
           color={useColorModeValue('blue.600', 'orange.200')}
         >
-          My Github Link
+          GitHub Repo
         </Link>
       </Text>
       <Text>
