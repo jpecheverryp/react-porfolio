@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import DigitalGarden from './pages/Projects/DigitalGarden';
 import ReactEmployeeDirectory from './pages/Projects/ReactEmployeeDirectory';
+import TauroeComm from './pages/Projects/TauroeComm';
 import Work from './pages/Work';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           path='work/employeedirectory'
           element={<ReactEmployeeDirectory />}
         />
+        <Route path='work/tauroecomm' element={<TauroeComm />} />
       </Routes>
       <Footer />
     </Box>

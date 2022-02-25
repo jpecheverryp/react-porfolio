@@ -11,6 +11,7 @@ import {
 import { Link as RouterLink } from 'react-router-dom';
 import digitalGardenThumb from '../images/digitalGardenThumb.png';
 import employeeDirectory from '../images/employeeDirectory.png';
+import tauroEcommThumb from '../images/tauroThumbnail.png';
 import React from 'react';
 
 const Work = () => {
@@ -45,23 +46,22 @@ const Work = () => {
         templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
         gap={2}
       >
-        {/* <LinkBox as={RouterLink} to='/work/digitalgarden'>
+        {/* Tauro */}
+        <LinkBox as={RouterLink} to='/work/tauroecomm'>
           <GridItem w={'100%'} p={2}>
             <Image
               loading='lazy'
-              src={digitalGardenThumb}
+              src={tauroEcommThumb}
               borderRadius={'lg'}
-              alt={'Digital Garden Thumbnail'}
+              alt={'Tauro e-commerce shop'}
             />
             <Heading as={'h4'} size={'md'} mt={2} textAlign={'center'}>
-              Digital Garden
+              Tauro e-commerce Shop
             </Heading>
-            <Text textAlign={'center'}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              quibusdam aspernatur ad velit eum
-            </Text>
+            <Text textAlign={'center'}>Tauro is an e-commerce project</Text>
           </GridItem>
-        </LinkBox> */}
+        </LinkBox>
+        {/* Employee Directory */}
         <LinkBox as={RouterLink} to='/work/employeedirectory'>
           <GridItem w={'100%'} p={2}>
             <Image
