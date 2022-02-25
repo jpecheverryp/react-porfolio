@@ -12,7 +12,6 @@ import {
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
 import tauroThumbnail from '../../images/tauroThumbnail.png';
-import employeeDirectory2 from '../../images/employeeDirectory2.png';
 
 const TauroeComm = () => {
   return (
