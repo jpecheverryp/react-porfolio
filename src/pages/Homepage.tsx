@@ -10,7 +10,7 @@ import {
   Icon,
   Flex,
 } from '@chakra-ui/react';
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 import { Link as RouterLink } from 'react-router-dom';
 const Homepage = () => {
@@ -73,16 +73,7 @@ const Homepage = () => {
             <Icon as={FaGithub} fontSize={25} mr={3} />
             @jpecheverryp
           </Button>
-          <Button
-            width={'fit-content'}
-            as={'a'}
-            href='https://twitter.com/JpechDev'
-            target={'_blank'}
-            mt={2}
-          >
-            <Icon as={FaTwitter} fontSize={25} mr={3} />
-            @JpechDev
-          </Button>
+
           <Button
             width={'fit-content'}
             as={'a'}
